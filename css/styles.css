@@ -1,5 +1,70 @@
+/* Base styles */
+
 .body {
 }
 .link {
   text-decoration: none;
+}
+
+/* Header section */
+
+.header-page {
+}
+.htader-logo {
+}
+.header-img {
+}
+.header-nav {
+}
+.header-list {
+}
+.header-item {
+}
+.link {
+}
+.header-btm {
+}
+
+/* Hero section */
+
+.hero {
+}
+.hero-list {
+}
+.hero-item {
+}
+.link {
+}
+.hero-uppertitle {
+}
+.hero-title {
+}
+.hero-undertitle {
+}
+.hero-slider {
+}
+.hero-slider-item {
+}
+.hero-slider-btm {
+}
+
+/* About section */
+
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-img {
+}
+.about-pretitle {
+}
+.about-title {
+}
+.about-uppertitle {
+}
+.about-undertitle {
+}
+.about-btm {
 }
