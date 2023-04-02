@@ -6,47 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarberShop</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png" />
+
     <!-- Customs styles -->
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header section -->
 
-    <header class="page-header">
-      <a class="logo-link" href="">
+    <header class="header-page">
+      <a class="htader-logo" href="">
         <img
+          class="header-img"
           src="./images/favicons/logo.svg"
           alt="BarberShop logo"
           width="76"
           height="76"
         />
       </a>
-      <nav>
-        <ul>
-          <li><a class="link" href="#about">About</a></li>
-          <li><a class="link" href="#price">Services and prices</a></li>
-          <li><a class="link" href="#team">Barbers</a></li>
-          <li><a class="link" href="#contacts">Contacts</a></li>
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="link" href="#about">About</a>
+          </li>
+          <li class="header-item">
+            <a class="link" href="#price">Services and prices</a>
+          </li>
+          <li class="header-item">
+            <a class="link" href="#team">Barbers</a>
+          </li>
+          <li class="header-item">
+            <a class="link" href="#contacts">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button type="button">Online-booking</button>
+      <a class="link" href="tel:+380441111111">+38 044 111 11 11</a>
+      <button class="header-btm" type="button">Online-booking</button>
     </header>
     <main>
       <!-- Hero section -->
 
-      <section class="section-hero">
-        <ul>
-          <li>
+      <section class="hero">
+        <ul class="hero-list">
+          <li class="hero-item">
             <a
+              class="link"
               href="http://instagram.com"
               target="_blank"
               rel="noopening noreferent"
               >Instsgram</a
             >
           </li>
-          <li>
+          <li class="hero-item">
             <a
+              class="link"
               href="http://youtube.com"
               target="_blank"
               rel="noopening noreferent"
@@ -54,34 +67,41 @@
             >
           </li>
         </ul>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>
+        <p class="hero-uppertitle">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-undertitle">
           We are experts in trendy men’s haircuts. We work quickly, carefully
           and with style.
         </p>
 
         <!--Slider control-->
 
-        <ul>
-          <li><button type="button">Back</button></li>
-          <li><button type="button">Forward</button></li>
+        <ul class="hero-slider">
+          <li class="hero-slider-item">
+            <button class="hero-slider-btm" type="button">Back</button>
+          </li>
+          <li class="hero-slider-item">
+            <button class="hero-slider-btm" type="button">Forward</button>
+          </li>
         </ul>
       </section>
+
       <!--About section-->
 
-      <section id="about">
-        <ul>
-          <li>
+      <section class="about" id="about">
+        <ul class="about-list">
+          <li class="about-item">
             <img
+              class="about-img"
               src="./images/about/img-1.jpg"
               alt="Beard trim"
               width="270"
               height="445"
             />
           </li>
-          <li>
+          <li class="about-item">
             <img
+              class="about-img"
               src="./images/about/img-2.jpg"
               alt="Straight razor shave"
               width="270"
@@ -89,19 +109,19 @@
             />
           </li>
         </ul>
-        <p>About</p>
-        <h2>Best Barbershop in your city</h2>
-        <p>
+        <p class="about-pretitle">About</p>
+        <h2 class="about-title">Best Barbershop in your city</h2>
+        <p class="about-uppertitle">
           If you want to add more confidence to your image, you should visit us.
         </p>
-        <p>
+        <p class="about-undertitle">
           We are a team that never stops at what has been achieved and are
           thirsty for changes. And when you fall into the hands of our master,
           you will never be the same again. We are a team that is always "on the
           same wave" with clients. Therefore, we are always ready to improve
           everyone who comes to us!
         </p>
-        <button type="button">Online-booking</button>
+        <button class="about-btm" type="button">Online-booking</button>
       </section>
 
       <!-- Price section -->
@@ -253,6 +273,7 @@
           <ul>
             <li>
               <a
+                class="link"
                 href="https://goo.gl/maps/j2RbSHMfMsfvCQzq5"
                 target="_blank"
                 rel="noopening noreferent"
@@ -262,10 +283,12 @@
               </a>
             </li>
             <li>
-              <a href="tel:+380441111111">+38 044 111 11 11</a>
+              <a class="link" href="tel:+380441111111">+38 044 111 11 11</a>
             </li>
             <li>
-              <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+              <a class="link" href="mailto:barbershop@email.com"
+                >barbershop@email.com</a
+              >
             </li>
           </ul>
         </address>
@@ -285,12 +308,20 @@
       <p>&#169;Copyright 2020</p>
       <ul>
         <li>
-          <a href="instagram.com" target="_blank" rel="noopening noreferent"
+          <a
+            class="link"
+            href="instagram.com"
+            target="_blank"
+            rel="noopening noreferent"
             >Instagram</a
           >
         </li>
         <li>
-          <a href="youtube.com" target="_blank" rel="noopening noreferent"
+          <a
+            class="link"
+            href="youtube.com"
+            target="_blank"
+            rel="noopening noreferent"
             >Youtube</a
           >
         </li>
